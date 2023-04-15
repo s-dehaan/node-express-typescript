@@ -1,2 +1,3 @@
-# node-project
-Node + Devcontainer
+# node-typescript
+
+Node Project - Express Typescript

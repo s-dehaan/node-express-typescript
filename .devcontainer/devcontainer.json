@@ -1,5 +1,5 @@
 {
-  "name": "node-project",
+  "name": "node-typescript",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/workspace",
@@ -14,7 +14,7 @@
       ]
     }
   },
-  
+
   "forwardPorts": [],
   "remoteUser": "vscode"
 }
