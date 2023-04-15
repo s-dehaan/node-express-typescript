@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript",
+  "name": "node-express-typescript",
   "version": "1.0.0",
-  "description": "Node Project - Express Typescript",
+  "description": "Node Project Template - Express Typescript",
   "main": ".dist/server.js",
   "scripts": {
     "build": "tsc -p ./tsconfig-build.json",
