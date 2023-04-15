@@ -2,7 +2,7 @@
 
 <p style="text-align: center;">Node Project Template - Express Typescript</p>
 
-<p style="text-align: center;">
+<p style="margin: 10px; auto">
     <img src="https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=Typescript&logoColor=white">
     <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
     <img src="https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white">
