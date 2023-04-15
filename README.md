@@ -2,18 +2,23 @@
 
 <p style="text-align: center;">Node Project Template - Express Typescript</p>
 
-<div align="center">
 ![Typescript](https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=Typescript&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white)
 ![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)</div>
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+
+# Prerequisits
+
+- Docker
+- Visual Studio Code
+- [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension.
+
+Open the repository in Visual Studio Code and open the command pallete (F1).
+
+Run the `Remote-Containers: Rebuild Without Cache and Reopen in Container` command.
 
 # Installation
-
-The easiest way to get a consistent development environment every time is to make use of the [devcontainer](https://code.visualstudio.com/docs/devcontainers/containers).
-
-Once you open up this project VS Code, run the **Dev Containers: Reopen Folder in Container...** command from the Command Palette **(F1)**
 
 Copy `.env.example` to `.env`. Modify if required.
 
@@ -25,42 +30,22 @@ npm ci install
 
 # Usage
 
-## Build
+Start the application
 
 ```
-npm run build
+npm start
 ```
 
-## Development environment
+Start the development server
 
 ```
 npm run start:devserver
 ```
 
-## Lint
+Run the tests
 
 ```
-npm run lint
-```
-
-## Production environment
-
-```
-npm run start
-```
-
-## Test
-
-Run all tests:
-
-```
-npm run test
-```
-
-Run coverage:
-
-```
-npm run test:coverage
+npm test
 ```
 
 Run a single test file:
@@ -69,8 +54,26 @@ Run a single test file:
 npm run test:single tests/app.test.ts
 ```
 
+Run the coverage report
+
+```
+npm run test:coverage
+```
+
+Lint all files
+
+```
+npm run lint
+```
+
+Update all packages
+
+```
+npm run packages:update
+```
+
 # License
 
 Copyright © 2023-present Sebastiaan de Haan
 
-This project is [MIT](#LICENSE) licensed.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
