@@ -9,7 +9,7 @@ const start = async () => {
       console.log("Press Ctrl+C to exit the application");
     });
   } catch (error) {
-    console.error(`Unable to connect to the database: ${error}`);
+    console.error(`Something went wrong starting the server: ${error}`);
   }
 };
 
